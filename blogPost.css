@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;700&family=Noto+Sans&display=swap');
+
+.blogPostContainer {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.blogNavigation {
+    padding-left: 10px;
+    
+height: 90vh;
+    
+display: flex;
+    
+flex-direction: column;
+    
+width: 30vw;
+    
+align-content: space-around;
+    
+align-items: center;
+    
+justify-content: space-between;
+/* text-align: justify; */
+}
+
+#sidebarHeading{
+    margin-top: 40px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;;
+}
+
+.blogNavigation li{
+    margin: 40px 0;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;;
+   
+}
+
+.blogContentContainer {
+    
+overflow: scroll;
+    
+overflow-x: hidden; /* Hide horizontal scrollbar*/
+    
+display: flex;
+    
+flex-direction: column;
+    
+width: 65vw;
+    
+align-items: center;
+    
+align-content: stretch;
+    
+/* justify-content: space-evenly; */
+    
+color: white;
+    
+flex-wrap: wrap;
+}
+
+.topImg img {
+    
+width: 60vw;
+    
+margin: 20px 0;
+    
+border-radius: 10px;
+}
+
+.blogTitle {
+    font-family: 'Noto Sans', sans-serif;
+    width: 60vw;
+}
+
+.blogMetaData {
+    
+width: 60vw;
+    
+display: flex;
+    
+flex-direction: row;
+    
+align-items: flex-start;
+    
+margin: 2vw 0;
+}
+
+#by{
+    
+    margin: 0 10px 0 30px ;
+}
+
+.blogContent {
+    
+    width: 60vw;
+    text-align: justify;
+    height: 10vh;
+}
+
+.blogContent p , ul{
+    
+    margin:20px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+}
+.blogContent  h1 , h2 , h3 {
+    margin:10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+@media(max-width:500px){
+    .blogNavigation{
+        display: none;
+    }
+
+    .blogPostContainer{
+       justify-content: space-around;
+      
+    }
+
+    .blogContentContainer{
+        overflow:visible;
+        width: 95vw;
+    }
+    .topImg img{
+        width:95vw;
+        height: auto;
+        padding: 0 ;
+
+    }
+    .blogTitle {
+    
+        width: 95vw;
+        text-align: center;
+    }
+
+.blogMetaData {
+    
+    width: 95vw;
+   justify-content: center;
+  
+}
+
+    .blogContent {
+    
+        width: 95vw;
+
+    }
+}
+
