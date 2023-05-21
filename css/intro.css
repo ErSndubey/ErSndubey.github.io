@@ -108,10 +108,16 @@ font-weight: bold;
     background-color: #f44336;
 }
 
-.php {
+.Bootstrap {
+    margin: 10px 0;
+    width: 75%;
+    background-color: #808080;
+}
+
+.React {
     margin: 10px 0;
     width: 60%;
-    background-color: #808080;
+    background-color: #61dbfb;
 }
 
 
