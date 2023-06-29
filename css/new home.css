@@ -134,9 +134,26 @@
     margin: 5vw;
 }
 
-.circle img{
+ .circle {
+    margin-top: 50px;
+    margin-right:30px ;
+    display: inline-block;
     border-radius: 50%;
-}
+    border: 5px solid yellow;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as per your requirements */
+    height: 35vw;
+    position: relative;
+  }
+  
+  .circle img {
+  
+    display: block;
+    width: 105%;
+    height: 105%;
+    object-fit: cover;
+  }
 
 /* .devPic {
     /* background-color: yellow; */
