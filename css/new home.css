@@ -134,23 +134,27 @@
     margin: 5vw;
 }
 
-.devPic {
+.circle img{
+    border-radius: 50%;
+}
+
+/* .devPic {
     /* background-color: yellow; */
     display: flex;
     align-content: center;
     flex-wrap: wrap;
     width: 40vw;
     justify-content: space-around;
-}
+} */
 
-.devPic img {
+/* .devPic img {
 
     /* background-color: aqua; */
 
     width: 40vw;
 
     height: auto;
-}
+} */
 
 .hello {
     font-family: 'Fira Sans', sans-serif;
