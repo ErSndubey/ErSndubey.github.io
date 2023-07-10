@@ -74,7 +74,7 @@ font-family: 'Noto Sans', sans-serif;
 
 .projectDiscription{
   background-color: transparent;
-/*   text-align:justify; */
+  text-align:justify;
   font-family: 'Noto Sans', sans-serif;
   margin:0 10px 10px 5px;
 }
